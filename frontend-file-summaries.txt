@@ -1,0 +1,21 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, QueryClient configuration, and LanguageProvider wrapping all routes with conditional layout rendering.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including user profiles, admin checks, user management (get all users, assign roles, get caller role), menu photos management, and contact info management.",
+  "frontend/src/components/Header.tsx": "Fixed header component with responsive navigation, mobile hamburger menu, and language toggle dropdown (Globe icon) supporting Spanish/English switching with ARIA attributes.",
+  "frontend/src/components/Footer.tsx": "Footer component with multilingual navigation links, Facebook link, and caffeine.ai attribution using translation function.",
+  "frontend/src/pages/HomePage.tsx": "Complete home page with multilingual hero section, story, contact details, map integration, floating WhatsApp button, and SEO meta tags using translation function.",
+  "frontend/src/pages/MenuPage.tsx": "Interactive menu page with multilingual interface, Embla Carousel slideshow, thumbnail navigation, WhatsApp ordering button, full-screen lightbox with pinch-to-zoom, and mobile swipe gestures.",
+  "frontend/src/pages/ContactPage.tsx": "Contact page with multilingual labels and headings, dynamic restaurant information, lazy-loaded Google Maps embed, fallback text card, and Get Directions button using Tailwind CSS v3 classes.",
+  "frontend/src/pages/PrivacyPolicyPage.tsx": "Complete privacy policy page with multilingual content sections covering data collection, cookie usage, user rights, data security, and contact information.",
+  "frontend/src/pages/AdminPage.tsx": "Admin page with Internet Identity authentication, user profile setup, role-based access control with access denied modal showing Principal ID and copy functionality, and three-tab interface for menu photos, contact info, and users management.",
+  "frontend/src/components/admin/MenuPhotosTab.tsx": "Admin tab for uploading menu photos with WebP conversion, displaying gallery with delete/reorder controls, and preview mode toggle.",
+  "frontend/src/components/admin/ContactInfoTab.tsx": "Admin tab for editing contact information with form validation, map preview, and save functionality for all restaurant details.",
+  "frontend/src/index.css": "Global styles with OKLCH color system for warm restaurant theme with orange/amber primary colors, includes fadeIn and slideDown animations for UI transitions.",
+  "frontend/src/components/CookieConsent.tsx": "Cookie consent banner with multilingual text content that adapts to selected language, localStorage persistence, and Accept/Decline buttons.",
+  "frontend/src/components/admin/AdminUsersTab.tsx": "Admin tab component for managing users with Principal ID input validation, add/promote functionality, users table with search and role filtering, promote/demote actions, and protection against demoting the last admin.",
+  "frontend/public/.well-known/ii-alternative-origins": "Internet Identity configuration file with alternative origins for kebabbite.com domains in compact JSON format for authentication compatibility.",
+  "frontend/public/sitemap.xml": "XML sitemap file defining URLs for home, menu, contact, and privacy pages with proper date, changefreq, and priority values for SEO.",
+  "frontend/public/robots.txt": "Robots.txt file allowing all user agents full crawl access and referencing the sitemap location.",
+  "frontend/index.html": "HTML entry point with Spanish language attribute and comprehensive SEO meta tags including title, description, keywords, robots directive, and canonical URL.",
+  "frontend/src/lib/i18n.tsx": "Language context provider with updated Spanish and English translations for home page story paragraphs, including new content about Halal Mediterranean street food, menu items (Rollo Kebab, Kebab en Pan, Kebab Turka, Alitas, Nuggets, Pizzas), Doner Kebab, Burgers, and Salads, with localStorage persistence for language preference."
+}
